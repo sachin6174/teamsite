@@ -1,0 +1,23 @@
+.sidebar {
+    width: 200px;
+    transition: width 0.3s;
+}
+
+.sidebar.closed {
+    width: 50px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar button {
+    display: block;
+    margin: 10px;
+}
